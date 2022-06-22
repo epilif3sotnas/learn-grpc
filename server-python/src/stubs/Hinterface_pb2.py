@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10Hinterface.proto\x12\x05hello\"$\n\x11helloWorldRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"$\n\x12helloWorldResponse\x12\x0e\n\x06status\x18\x01 \x01(\x08\x32L\n\x05Hello\x12\x43\n\nhelloWorld\x12\x18.hello.helloWorldRequest\x1a\x19.hello.helloWorldResponse\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10Hinterface.proto\x12\x05hello\"$\n\x11helloWorldRequest\x12\x0f\n\x07message\x18\x01 \x01(\t\"$\n\x12helloWorldResponse\x12\x0e\n\x06status\x18\x01 \x01(\x08\x32L\n\x05Hello\x12\x43\n\nhelloWorld\x12\x18.hello.helloWorldRequest\x1a\x19.hello.helloWorldResponse\"\x00\x42\x0f\n\rio.grpc.protob\x06proto3')
 
 
 
@@ -38,6 +38,7 @@ _HELLO = DESCRIPTOR.services_by_name['Hello']
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  DESCRIPTOR._serialized_options = b'\n\rio.grpc.proto'
   _HELLOWORLDREQUEST._serialized_start=27
   _HELLOWORLDREQUEST._serialized_end=63
   _HELLOWORLDRESPONSE._serialized_start=65

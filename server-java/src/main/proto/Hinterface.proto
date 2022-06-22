@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.server_java.app.grpc";
+
+service Hello {
+    rpc helloWorld (helloWorldRequest) returns (helloWorldResponse) {}
+}
+
+message helloWorldRequest {
+    string message = 1;
+}
+
+message helloWorldResponse {
+    bool status = 1;
+}

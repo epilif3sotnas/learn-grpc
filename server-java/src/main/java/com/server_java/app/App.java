@@ -2,9 +2,9 @@ package com.server_java.app;
 
 import java.io.IOException;
 
-import com.server_java.app.grpc.Hinterface.helloWorldRequest;
-import com.server_java.app.grpc.Hinterface.helloWorldResponse;
-import com.server_java.app.grpc.HelloGrpc;
+import io.grpc.proto.Hinterface.helloWorldRequest;
+import io.grpc.proto.Hinterface.helloWorldResponse;
+import io.grpc.proto.HelloGrpc;
 
 import io.grpc.Server;
 import io.grpc.ServerBuilder;

@@ -7,8 +7,7 @@ def main():
     with grpc.insecure_channel('localhost:5050') as channel:
         stub = Hinterface_pb2_grpc.HelloStub(channel)
         response = stub.helloWorld(Hinterface_pb2.helloWorldRequest(message = 'Hello World!'))
-    print("Status: " + str(response.status))
-
+    print(response)
 
 if __name__ == '__main__':
     main()

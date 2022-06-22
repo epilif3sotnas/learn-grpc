@@ -2,9 +2,9 @@ package com.client_java.app;
 
 import java.util.concurrent.TimeUnit;
 
-import com.client_java.app.grpc.HelloGrpc;
-import com.client_java.app.grpc.Hinterface.helloWorldRequest;
-import com.client_java.app.grpc.Hinterface.helloWorldResponse;
+import io.grpc.proto.HelloGrpc;
+import io.grpc.proto.Hinterface.helloWorldRequest;
+import io.grpc.proto.Hinterface.helloWorldResponse;
 
 import io.grpc.Channel;
 import io.grpc.ManagedChannel;
@@ -25,7 +25,7 @@ public class App {
 
         try {
             res = blockingStub.helloWorld(req);
-            System.out.println("Server response: " + res.getStatus());
+            System.out.println(res);
         } catch (StatusRuntimeException ex) {
             ex.printStackTrace();
         }

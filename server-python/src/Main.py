@@ -1,7 +1,6 @@
 import grpc
-# improve -> import from stubs
-import Hinterface_pb2
-import Hinterface_pb2_grpc
+import stubs.Hinterface_pb2_grpc as Hinterface_pb2_grpc
+import stubs.Hinterface_pb2 as Hinterface_pb2
 
 from concurrent import futures
 

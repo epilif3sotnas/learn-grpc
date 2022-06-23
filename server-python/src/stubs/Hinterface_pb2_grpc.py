@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import Hinterface_pb2 as Hinterface__pb2
+import stubs.Hinterface_pb2 as Hinterface__pb2
 
 
 class HelloStub(object):

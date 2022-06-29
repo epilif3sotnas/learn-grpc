@@ -1,0 +1,15 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "gRPC server in Node language",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node src/Main.js"
+  },
+  "author": "Filipe Santos <filipesantos1999@hotmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@grpc/grpc-js": "1.6.7",
+    "@grpc/proto-loader": "0.6.13"
+  }
+}

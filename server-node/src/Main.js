@@ -18,7 +18,7 @@ var hello_proto = grpc.loadPackageDefinition(packageDefinition).hello;
 
 function helloWorld (call, callback) {
     console.log(call.request);
-    callback(null, {message: true}); // Fix this it is sending false
+    callback(null, {status: true});
 }
 
 function main () {

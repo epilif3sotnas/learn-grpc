@@ -18,6 +18,8 @@ In each folder there is another README to explain how to run and test each clien
 - [Python server](https://github.com/epilif3sotnas/learn-grpc/tree/main/server-python)
 - [Java client](https://github.com/epilif3sotnas/learn-grpc/tree/main/client-java)
 - [Java server](https://github.com/epilif3sotnas/learn-grpc/tree/main/server-java)
+- [Node client](https://github.com/epilif3sotnas/learn-grpc/tree/main/client-node)
+- [Node server](https://github.com/epilif3sotnas/learn-grpc/tree/main/server-node)
 
 **Note**: To run this correctly you need to run first the server and then the client.
 

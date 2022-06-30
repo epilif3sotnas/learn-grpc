@@ -1,6 +1,6 @@
 # About learn-grpc
 
-In this repository was built with the goal to learn about gRPC and communicate between various programming languages like Python, Java, Node and C++.
+In this repository was built with the goal to learn about gRPC and communicate between various programming languages like Python, Java, Node and Rust.
 
 
 # Requirements

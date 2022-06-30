@@ -16,18 +16,10 @@ var packageDefinition = protoLoader.loadSync(
 
 var hello_proto = grpc.loadPackageDefinition(packageDefinition).hello;
 
-function helloWorld (call, callback) {
-    console.log(call.request);
-    callback(null, {status: true});
-}
-
 function main () {
-    var server = new grpc.Server();
-    server.addService(hello_proto.Hello.service, {helloWorld: helloWorld});
-    server.bindAsync('localhost:5052', grpc.ServerCredentials.createInsecure(), () => {
-        console.log("Server starting...");
-        server.start();
-        console.log("Server started!");
+    var client = new hello_proto.Hello('localhost:5052', grpc.credentials.createInsecure());
+    client.helloWorld({message: 'Hello World!'}, function (err, res) {
+        console.log(res);
     });
 }
 

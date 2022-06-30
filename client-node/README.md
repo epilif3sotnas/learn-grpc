@@ -3,6 +3,6 @@
 Run the server
 
 ```
-cd {PATH_REPOSITORY}/server-node
+cd {PATH_REPOSITORY}/client-node
 npm start
 ```

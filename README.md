@@ -9,6 +9,8 @@ In this repository was built with the goal to learn about gRPC and communicate b
 
 ### Java -> pom.xml
 
+### Node -> package.json
+
 
 # Folders
 

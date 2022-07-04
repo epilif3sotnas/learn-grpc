@@ -1,0 +1,22 @@
+[package]
+name = "server-rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/proto/Lib.rs"
+doctest = false
+test = false
+
+[dependencies]
+grpc = "0.8.3"
+grpc-protobuf="0.8.3"
+protobuf = "2.18.2"
+futures = "~0.3"
+
+[build-dependencies]
+protoc-rust-grpc = "0.8.3"
+
+[[bin]]
+name = "server-rust"
+path="src/Main.rs"

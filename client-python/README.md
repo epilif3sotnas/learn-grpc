@@ -10,6 +10,6 @@ python3 -m grpc_tools.protoc --proto_path=src/proto Hinterface.proto --python_ou
 Then you need to run the client
 
 ```
-cd {PATH_REPOSITORY}/client-python/src
-python3 Main.py
+cd {PATH_REPOSITORY}/client-python
+pipenv run start
 ```

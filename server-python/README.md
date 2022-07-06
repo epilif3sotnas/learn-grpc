@@ -10,6 +10,6 @@ python3 -m grpc_tools.protoc --proto_path=src/proto Hinterface.proto --python_ou
 Then you need to run the server
 
 ```
-cd {PATH_REPOSITORY}/server-python/src
-python3 Main.py
+cd {PATH_REPOSITORY}/server-python
+pipenv run start
 ```

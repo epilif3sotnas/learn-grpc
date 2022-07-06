@@ -1,8 +1,9 @@
 # Run
 
-Run the server
+Commands to run the project:
 
 ```
-cd {PATH_REPOSITORY}/client-node
-npm start
+cd {PATH_REPOSITORY}/client-node;
+npm install;
+npm start;
 ```

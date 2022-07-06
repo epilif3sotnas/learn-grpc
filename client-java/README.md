@@ -1,16 +1,10 @@
 # Run
 
-First of all, it is needed to clean, compile and package the maven project
+Commands to run the project:
 
 ```
-cd {PATH_REPOSITORY}/client-java
-mvn clean compile
-mvn package
-```
-
-Then you need to run the client
-
-```
-cd {PATH_REPOSITORY}/client-java
-mvn exec:java
+cd {PATH_REPOSITORY}/client-java;
+mvn clean compile;
+mvn package;
+mvn exec:java;
 ```

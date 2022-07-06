@@ -1,6 +1,6 @@
 # Run
 
 ```
-cd {PATH_REPOSITORY}/client-rust
+cd {PATH_REPOSITORY}/server-rust
 cargo run
 ```

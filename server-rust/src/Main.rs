@@ -22,8 +22,7 @@ impl Hello for HelloImpl {
     }
 }
 
-
-fn main() {
+fn main () {
     let mut server = grpc::ServerBuilder::new_plain();
     server.http.set_port(5053);
     server.add_service(HelloServer::new_service_def(HelloImpl));

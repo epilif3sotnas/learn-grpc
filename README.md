@@ -11,6 +11,8 @@ In this repository was built with the goal to learn about gRPC and communicate b
 
 ### Node -> package.json
 
+### Rust -> Cargo.toml
+
 
 # Folders
 

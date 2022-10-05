@@ -5,13 +5,13 @@ In this repository was built with the goal to learn about gRPC and communicate b
 
 # Requirements
 
-### Python -> requirements.txt
+### Python => requirements.txt
 
-### Java -> pom.xml
+### Java => pom.xml
 
-### Node -> package.json
+### Node => package.json
 
-### Rust -> Cargo.toml
+### Rust => Cargo.toml
 
 
 # Folders

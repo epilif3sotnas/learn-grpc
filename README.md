@@ -1,20 +1,20 @@
-# About learn-grpc
+## About learn-grpc
 
 In this repository was built with the goal to learn about gRPC and communicate between various programming languages like Python, Java, Node and Rust.
 
 
-# Requirements
+## Requirements
 
-### Python => requirements.txt
+#### Python => requirements.txt
 
-### Java => pom.xml
+#### Java => pom.xml
 
-### Node => package.json
+#### Node => package.json
 
-### Rust => Cargo.toml
+#### Rust => Cargo.toml
 
 
-# Folders
+## Folders
 
 In each folder there is another README to explain how to run and test each client and server for each programming language.
 
@@ -30,6 +30,6 @@ In each folder there is another README to explain how to run and test each clien
 **Note**: To run this correctly you need to run first the server and then the client.
 
 
-# License
+## License
 
 Licensed under Apache-2.0 license.
